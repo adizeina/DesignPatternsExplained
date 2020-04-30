@@ -49,9 +49,9 @@ public class House {
     }
     public String backyard(){
         if (hasBackyard == true)
-            return " has a backyard!";
+            return "has a backyard!";
         else{
-            return " does not have a backyard!";
+            return "does not have a backyard!";
         }
 
     }
