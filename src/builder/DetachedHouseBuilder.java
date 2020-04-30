@@ -1,5 +1,7 @@
 package builder;
 
+/** This class  holds all the features of a standard detached home, but the attributes can be personalized, based on client's wishes (in Main)*/
+
 public class DetachedHouseBuilder extends HouseBuilder {
     public DetachedHouseBuilder() {
         super("Detached House");

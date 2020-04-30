@@ -1,5 +1,7 @@
 package builder;
 
+/** This class  holds all the features of a standard apartment, but the attributes can be personalized, based on client's wishes(in Main)*/
+
 public class ApartmentBuilder extends HouseBuilder {
     public ApartmentBuilder() {
         super("Apartment");
