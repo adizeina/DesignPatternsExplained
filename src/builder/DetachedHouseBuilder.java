@@ -2,7 +2,7 @@ package builder;
 
 public class DetachedHouseBuilder extends HouseBuilder {
     public DetachedHouseBuilder() {
-        super("Detached");
+        super("Detached House");
         this.addHouseSize(2500);
         this.addNumOfRooms(4);
         this.addNumOfFloors(3);

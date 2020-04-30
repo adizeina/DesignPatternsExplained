@@ -31,14 +31,38 @@ public class House {
     public void setHasPool(boolean pool) {
         this.hasPool = pool;
     }
+    public String pool(){
+        if (hasPool == true)
+            return " has a pool, ";
+        else{
+            return " does not have a pool, ";
+        }
+
+    }
+    public String balcony(){
+        if (hasBalcony == true)
+            return " has a balcony and ";
+        else{
+            return " does not have a balcony and ";
+        }
+
+    }
+    public String backyard(){
+        if (hasBackyard == true)
+            return " has a backyard!";
+        else{
+            return " does not have a backyard!";
+        }
+
+    }
+
     public void setHasBalcony(boolean balcony) {
         this.hasBalcony = balcony;
     }
 
     public String toString() {
-        return typeOfHouse + ": " + "Its size is " + sizeOfHome +
-                " It has " + numOfRooms + " rooms and has " + numOfFloors +
-                " floors. Pool = " + hasPool + " Balcony = " + hasBalcony + " Backyard = " + hasBackyard;
+        return "The " + typeOfHouse + " is of a size of " + sizeOfHome + ". It has " + numOfRooms + " rooms and " + numOfFloors +
+                " floors. The " + typeOfHouse + pool() + balcony() + backyard();
     }
 }
 
