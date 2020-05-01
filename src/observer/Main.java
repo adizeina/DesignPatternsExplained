@@ -1,5 +1,8 @@
 package observer;
 
+/** This class is a main class, which creates elevator button objects(the observable) and observer objects that are attached to the
+ * observable objects. When the elevator button is pushed up or down, the resident attached to the button will be alerted of the updated */
+
 public class Main {
     public static void main(String[] args) {
         ElevatorButton b1 = new ElevatorButton();

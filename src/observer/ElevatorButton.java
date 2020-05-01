@@ -3,6 +3,7 @@ package observer;
 public class ElevatorButton extends Observable {
     private boolean elevatorButtonUp = true;
 
+    /** This class is an observer of the elevator and is updated if the elevator button was pressed to go up*/
     public void goingUp() {
         if (this.elevatorButtonUp == false) {
             this.elevatorButtonUp = true;
@@ -11,6 +12,7 @@ public class ElevatorButton extends Observable {
         }
     }
 
+    /** This class is an observer of the elevator and is updated if the elevator button was pressed to go down*/
     public void goingDown() {
         if (this.elevatorButtonUp == true) {
             this.elevatorButtonUp = false;
