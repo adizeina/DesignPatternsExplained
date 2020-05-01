@@ -2,7 +2,7 @@ package factory;
 
 import java.util.Scanner;
 
-/** This class is the main, */
+/** This class is the main */
 
 public class Audience {
 

@@ -1,6 +1,6 @@
 package factory;
 
-/** This class is a subclass of Film, it takes a name, a staring actor, and a plot*/
+/** This class is a subclass of Film, it takes a name, a staring actor, and a plot of a mystery film that the theater is offering to the audience*/
 
 public class MysteryFilm extends Film {
     public MysteryFilm(){

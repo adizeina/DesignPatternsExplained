@@ -1,6 +1,6 @@
 package factory;
 
-/** This class  holds all the features of a standard semi-detached home, but the attributes can be personalized, based on client's wishes (in Main)*/
+/** This class decides which subclass of film is called upon, depending on the keyword the user inserted*/
 
 public class Theater {
     public Film showFilm(String choice){

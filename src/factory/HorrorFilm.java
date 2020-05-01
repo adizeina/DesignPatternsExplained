@@ -1,6 +1,6 @@
 package factory;
 
-/** This class  holds all the features of a standard semi-detached home, but the attributes can be personalized, based on client's wishes (in Main)*/
+/** This class is a subclass of Film, it takes a name, a staring actor, and a plot of a horror film that the theater is offering to the audience*/
 
 public class HorrorFilm extends Film {
     public HorrorFilm(){
