@@ -2,6 +2,8 @@ package iterator;
 
 import java.util.Iterator;
 
+/** This class is the main, it adds a student to the database  */
+
 public class Main {
 
     public static void main(String[] args) {
