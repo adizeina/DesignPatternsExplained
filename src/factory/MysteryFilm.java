@@ -1,5 +1,7 @@
 package factory;
 
+/** This class is a subclass of Film, it takes a name, a staring actor, and a plot*/
+
 public class MysteryFilm extends Film {
     public MysteryFilm(){
         super("A Quiet Place", "Emily Blunt", "A family struggles for survival in a world where most humans have been killed by " +

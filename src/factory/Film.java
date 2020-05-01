@@ -1,5 +1,7 @@
 package factory;
 
+/** This class  holds all the features of a standard semi-detached home, but the attributes can be personalized, based on client's wishes (in Main)*/
+
 public class Film {
     private String filmName;
     private String staringActor;
